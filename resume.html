@@ -1,0 +1,126 @@
+<!-- 
+    Project 3: Portfolio Site
+    IMS 222, Section E
+    Camila Lopez-Diaz
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Made By Camila</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Header with logo -->
+    <header>
+        <div class="container-fluid">
+            <!-- Logo centered above the navbar -->
+            <div class="navbar-brand pt-3 pb-3 text-center">
+                <a href="index.html">
+                    <img src="img/mila_logo.png" class="logo" alt="My Logo with name">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="design.html">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="writing.html">Writing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container-fluid">
+
+        <!-- Resume linked-->
+        <div class="row pt-3 justify-content-center">
+            <div class="col-sm-8">
+                <div class="resume-container">
+                    <iframe id="resume" src="PDF/Lopez-Diaz_Resume.pdf"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download button -->
+        <div class="row p-3 justify-content-center">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-custom btn-icon btn-radius" href="PDF/Lopez-Diaz_Resume.pdf"
+                    download="Lopez-Diaz_Resume.pdf">Download</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="p-2 text-center" style="background-color: #d1c6b1;">
+        <!-- Email logo -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #D14836;"
+            href="mailto:lopezdcp@miamioh.edu" role="button"><i class="bi bi-envelope"></i></a>
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/unofficialmila/" role="button"><i class="bi bi-linkedin"></i></a>
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #333333;"
+            href="https://github.com/unofficialmila" role="button"><i class="bi bi-github"></i></a>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // event listener for toggle hamburger menu
+        document.addEventListener("DOMContentLoaded", function () {
+            var navbarToggler = document.getElementById('button');
+            navbarToggler.addEventListener('click', function () {
+                this.classList.toggle('toggle');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

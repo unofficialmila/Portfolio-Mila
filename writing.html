@@ -1,0 +1,204 @@
+<!-- 
+    Project 3: Portfolio Site
+    IMS 222, Section E
+    Camila Lopez-Diaz
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Made By Camila</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header with logo and menu -->
+    <header>
+        <!--A navigation bar with logo above the links-->
+        <div class="container-fluid">
+            <!-- Logo centered above the navbar -->
+            <div class="navbar-brand pt-3 pb-3 text-center">
+                <a href="index.html">
+                    <img src="img/mila_logo.png" class="logo" alt="My Logo with name" />
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="design.html">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="writing.html">Writing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--main content-->
+    <div class="container-fluid">
+        <main>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-12 mx-auto">
+                        <h1 class="fw-light">writing samples</h1>
+                        <p class="lead text-body-secondary">
+                            Get a glimpse of some of my research papers and published columns at The Miami Student!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="img/tms_logo.png" alt="The Miami Student's Logo">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <b>published works at The Miami Student</b>
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="https://www.miamistudent.net/staff/camila-lopez-diaz" target=" _blank"
+                                            rel="noopener noreferrer">
+                                            <button type=" button" class="btn btn-sm btn-outline-secondary">
+                                                View
+                                            </button>
+                                        </a>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="img/transport.png" alt="Article's Image">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <b>LATEST STORY: "Oxford transportation can be better: Rethinking a car-first
+                                            environment"</b>
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="https://www.miamistudent.net/article/2023/12/walkable-campus"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                View
+                                            </button>
+                                        </a>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="img/bts.jpg" alt="BTS">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <b>Research: "K-Pop Goes Global: The Melodic Bridge between Cultures"</b>
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="PDF/K-Pop Goes Global_ The Melodic Bridge between Cultures.pdf"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                View
+                                            </button>
+                                        </a>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="img/adventure_time.jpg" alt="Adventure Time">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <b>Research: "The Importance of Representation of Queer Characters in Children’s
+                                            Media"</b>
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="PDF/queer.pdf" target="_blank" rel="noopener noreferrer">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                View
+                                            </button>
+                                        </a>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center" style="background-color: #d1c6b1">
+        <!-- Email logo -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #d14836"
+            href="mailto:lopezdcp@miamioh.edu" role="button"><i class="bi bi-envelope"></i></a>
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/unofficialmila/" role="button"><i class="bi bi-linkedin"></i></a>
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-2" style="background-color: #333333"
+            href="https://github.com/unofficialmila" role="button"><i class="bi bi-github"></i></a>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var navbarToggler = document.getElementById("button");
+            navbarToggler.addEventListener("click", function () {
+                this.classList.toggle("toggle");
+            });
+        });
+    </script>
+</body>
+
+</html>
